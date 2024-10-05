@@ -1,0 +1,21 @@
+h1 {
+    color: purple;
+    font-family: 'Arial', sans-serif;
+    font-size: 4rem;
+    text-align: center;
+    margin-top: 20vh;
+    animation: colorChange 5s infinite alternate;
+  }
+  
+  @keyframes colorChange {
+    0% {
+      color: purple;
+    }
+    50% {
+      color: blue;
+    }
+    100% {
+      color: red;
+    }
+  }
+  
